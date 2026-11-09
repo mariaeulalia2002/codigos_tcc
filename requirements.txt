@@ -1,0 +1,6 @@
+dlisio
+matplotlib
+numpy
+pandas
+scipy
+segyio
