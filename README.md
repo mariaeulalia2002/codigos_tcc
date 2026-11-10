@@ -32,6 +32,23 @@ Compara o intervalo amostral do *binary header* com o intervalo registrado nos
 python verificacao_headers_segy.py levantamento.sgy --tracos 200
 ```
 
+### `analise_Espectral.py`
+
+Estima a frequencia dominante do sinal sismico nos pontos de controle usados
+no TCC. Para cada ponto, extrai uma vizinhanca de 3 x 3 tracos, remove a
+tendencia linear, aplica uma janela de Hann e calcula o espectro de potencia.
+O pico e refinado por interpolacao parabolica local em escala logaritmica. O
+programa salva os resultados por traco, ponto, setor e evento, bem como os
+graficos dos espectros. Os pontos e tempos de referencia permanecem registrados
+no codigo, enquanto o caminho do SEG-Y e o diretorio de saida sao fornecidos na
+execucao.
+
+```powershell
+python analise_Espectral.py levantamento.sgy `
+  --saida resultados/frequencias `
+  --janela-ms 256
+```
+
 ### `extracao_dados_vsp_poco_137.py`
 
 Lê o DLIS do poço 1-BRSA-137-RJS, extrai os canais de profundidade e tempo e
