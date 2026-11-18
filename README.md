@@ -2,7 +2,8 @@
 
 Este diretório reúne as rotinas complementares utilizadas na verificação dos
 dados sísmicos, na preparação do modelo de velocidades e na identificação de
-picos secundários das curvas HVSR.
+picos secundários das curvas HVSR, além do cálculo das incertezas das medidas
+morfométricas.
 
 Os arquivos sísmicos, registros de poços, arquivos DLIS, curvas HVSR e demais
 dados de entrada não são distribuídos neste repositório. Os caminhos devem ser
@@ -100,6 +101,23 @@ python identificacao_picos_secundarios.py curva_hvsr.csv --f0 0.857 `
   --saida resultados/picos_secundarios.csv `
   --figura resultados/picos_secundarios.png
 ```
+
+### `incertezas_morfometricas/`
+
+Contém a rotina de propagação das incertezas das espessuras, soterramentos,
+volumes, alturas totais de queda e inclinações. O programa implementa as
+equações apresentadas na seção de incertezas morfométricas do TCC e exporta
+as componentes e os resultados em arquivos CSV. As entradas consolidadas
+utilizadas no cálculo também são registradas em JSON.
+
+```powershell
+cd incertezas_morfometricas
+python incertezas_morfometricas.py --autoteste
+```
+
+A rotina utiliza somente a biblioteca padrão do Python. A descrição das
+entradas, das saídas e das verificações está no arquivo
+[`incertezas_morfometricas/README.md`](incertezas_morfometricas/README.md).
 
 ## Instalação
 

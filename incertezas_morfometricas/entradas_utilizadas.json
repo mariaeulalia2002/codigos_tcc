@@ -1,0 +1,462 @@
+{
+  "repetibilidade": {
+    "s_d_ms": 0.54,
+    "u_pick_ms": 0.38183766184073564,
+    "media_diferencas_ms": null,
+    "n_diferencas_fornecidas": null
+  },
+  "rmse_fundo_ms": 0.09826,
+  "velocidade_agua_m_s": 1500.0,
+  "eventos": [
+    {
+      "evento": "MTD 1",
+      "tabela": 8,
+      "v": 1561.76,
+      "uv": 13.57,
+      "v_pocos": [
+        1567.28,
+        1528.37
+      ],
+      "d_m": [
+        48808.5,
+        295520.8
+      ],
+      "k": [
+        0.72,
+        1.13
+      ],
+      "area": 77.12,
+      "integral": 4476000000,
+      "esp": [
+        5.03,
+        57.42,
+        157.165
+      ],
+      "sot": [
+        17.23,
+        64.332,
+        70.934
+      ],
+      "fonte_tempos": "Memória de cálculo, Santos, p.7; Tabela 8",
+      "fonte_k": "Memória de cálculo, Santos, p.7",
+      "fonte_integral": "Memória de cálculo, Santos, p.7"
+    },
+    {
+      "evento": "MTD 2",
+      "tabela": 11,
+      "v": 1554.9,
+      "uv": 18.12,
+      "v_pocos": [
+        1567.28,
+        1528.37
+      ],
+      "d_m": [
+        32298.8,
+        69222.8
+      ],
+      "k": [
+        0.18,
+        0.29
+      ],
+      "area": 11.72,
+      "integral": 571504000,
+      "esp": [
+        20.49,
+        48.44,
+        89.96
+      ],
+      "sot": [
+        30.779,
+        56.275,
+        67.967
+      ],
+      "fonte_tempos": "Memória de cálculo, Continuação Santos, p.6; Tabela 11",
+      "fonte_k": "Memória de cálculo, Continuação Santos, p.6",
+      "fonte_integral": "Memória de cálculo, Continuação Santos, p.6"
+    },
+    {
+      "evento": "MTD 3",
+      "tabela": 14,
+      "v": 1715.3,
+      "uv": 32.9,
+      "v_pocos": [
+        1646.21,
+        1730.96
+      ],
+      "d_m": [
+        44079.5,
+        9994.8
+      ],
+      "k": [
+        1.69,
+        2.48
+      ],
+      "area": 115.96,
+      "integral": 8622130000,
+      "esp": [
+        17.94,
+        73.95,
+        189.89
+      ],
+      "sot": [
+        39.759,
+        265.065,
+        326.767
+      ],
+      "fonte_tempos": "Memória de cálculo, Recorrência, p.16; Tabela 14",
+      "fonte_k": "Memória de cálculo, Recorrência, p.16",
+      "fonte_integral": "Memória de cálculo, Recorrência, p.16"
+    },
+    {
+      "evento": "MTC 1-A",
+      "tabela": 16,
+      "v": 1709.91,
+      "uv": 53.82,
+      "v_pocos": [
+        1656.99,
+        1764.65
+      ],
+      "d_m": [
+        38481.359,
+        39807.014
+      ],
+      "k": [
+        21.09,
+        22.97
+      ],
+      "area": 1585.48,
+      "integral": 153900000000,
+      "esp": [
+        28.88,
+        97.07,
+        242.66
+      ],
+      "sot": [
+        31.1,
+        263.533,
+        510.7
+      ],
+      "fonte_tempos": "Tabela 16 e Apêndice D",
+      "fonte_k": "Variâncias médias de krigagem: topo 21,09; base 22,97",
+      "fonte_integral": "Tabela 16: 153,900 x 10^9 ms.m²"
+    },
+    {
+      "evento": "MTC 1-B",
+      "tabela": 17,
+      "v": 1774.62,
+      "uv": 78.72,
+      "v_pocos": [
+        1723.92,
+        1896.85
+      ],
+      "d_m": [
+        20104.965,
+        48471.336
+      ],
+      "k": null,
+      "ut_esp": 1.2,
+      "ut_sot": 0.85,
+      "area": 110.2,
+      "integral": 11400000000,
+      "esp": [
+        19.0,
+        102.76,
+        154.7
+      ],
+      "sot": [
+        233.1089630126953,
+        322.1647500624132,
+        389.1745910644531
+      ],
+      "fonte_tempos": "Tabela 17 e Apêndice D",
+      "fonte_k": "Componentes temporais adotadas na Tabela 17",
+      "fonte_integral": "Tabela 17: 11,40 x 10^9 ms.m²"
+    },
+    {
+      "evento": "MTC 1-C",
+      "tabela": 18,
+      "v": 1552.59,
+      "uv": 18.86,
+      "v_pocos": [
+        1567.28,
+        1528.37
+      ],
+      "d_m": [
+        31032.2,
+        51170
+      ],
+      "k": [
+        8.21,
+        9.56
+      ],
+      "area": 648.5,
+      "integral": 65500000000,
+      "esp": [
+        10.93,
+        100.1,
+        230.61
+      ],
+      "sot": [
+        4.703070640563965,
+        111.69389901398249,
+        203.43434143066406
+      ],
+      "fonte_tempos": "Tabela 18 e Apêndice D",
+      "fonte_k": "Variâncias médias de krigagem: topo 8,21; base 9,56",
+      "fonte_integral": "Tabela 18: 65,5 x 10^9 (entrada arredondada)"
+    },
+    {
+      "evento": "MTC 2-A",
+      "tabela": 20,
+      "v": 1785.72,
+      "uv": 96.43,
+      "v_pocos": [
+        1702.04,
+        1896.85
+      ],
+      "d_m": [
+        21018.562,
+        27909.689
+      ],
+      "k": [
+        0.3,
+        0.45
+      ],
+      "area": 73.02,
+      "integral": 4320270000,
+      "esp": [
+        22.37,
+        58.595,
+        103.34
+      ],
+      "sot": [
+        104.664,
+        324.596,
+        400.276
+      ],
+      "fonte_tempos": "Memória de cálculo, Búzios 3rd, p.10; Tabela 20",
+      "fonte_k": "Memória de cálculo, Búzios 3rd, p.10",
+      "fonte_integral": "Memória de cálculo, Búzios 3rd, p.10"
+    },
+    {
+      "evento": "MTC 2-B",
+      "tabela": 21,
+      "v": 1574.5,
+      "uv": 30.09,
+      "v_pocos": [
+        1600.62,
+        1539.83
+      ],
+      "d_m": [
+        21018.562,
+        27909.689
+      ],
+      "k": [
+        0.46,
+        0.79
+      ],
+      "area": 95.64,
+      "integral": 8400650000,
+      "esp": [
+        16.57,
+        86.961,
+        144.44
+      ],
+      "sot": [
+        22.103,
+        214.101,
+        279.694
+      ],
+      "fonte_tempos": "Memória de cálculo, Búzios 4th, p.11; Tabela 21",
+      "fonte_k": "Memória de cálculo, Búzios 4th, p.11",
+      "fonte_integral": "Memória de cálculo, Búzios 4th, p.11"
+    },
+    {
+      "evento": "MTC 2-C",
+      "tabela": 22,
+      "v": 1574.15,
+      "uv": 17.69,
+      "v_pocos": [
+        1580.98,
+        1528.37
+      ],
+      "d_m": [
+        6004.06,
+        40198.169
+      ],
+      "k": [
+        1.53,
+        2.02
+      ],
+      "area": 42.29,
+      "integral": 3106000000,
+      "esp": [
+        17.2,
+        72.91,
+        175.9
+      ],
+      "sot": [
+        130.06224060058594,
+        197.2467784127075,
+        308.3714599609375
+      ],
+      "fonte_tempos": "Tabela 22 e Apêndice D",
+      "fonte_k": "Variâncias médias de krigagem: topo 1,53; base 2,02",
+      "fonte_integral": "Tabela 22: 3,106 x 10^9 ms.m²"
+    },
+    {
+      "evento": "MTC 2-D",
+      "tabela": 24,
+      "v": 1561.18,
+      "uv": 14.15,
+      "v_pocos": [
+        1567.28,
+        1528.37
+      ],
+      "d_m": [
+        6704.8,
+        36022.4
+      ],
+      "k": null,
+      "ut_esp": 2.7,
+      "ut_sot": 2.2,
+      "area": 232.73,
+      "integral": 25150000000,
+      "esp": [
+        5.78,
+        107.23,
+        290.87
+      ],
+      "sot": [
+        4.67,
+        119.202,
+        185.52
+      ],
+      "fonte_tempos": "Tabela 24 e Apêndice D",
+      "fonte_k": "Componentes temporais adotadas na Tabela 24",
+      "fonte_integral": "Tabela 24: 25,15 x 10^9 (entrada arredondada)"
+    }
+  ],
+  "segmentos": [
+    [
+      "MTD 1",
+      "Ht",
+      "A-C",
+      1872.44,
+      1819.73,
+      2190.13,
+      2079.84,
+      null
+    ],
+    [
+      "MTD 2",
+      "Ht",
+      "A-C",
+      1979.96,
+      1938.34,
+      2147.95,
+      2059.03,
+      null
+    ],
+    [
+      "MTD 3",
+      "Ht",
+      "A-C",
+      2358.8,
+      2139.12,
+      2897.46,
+      2561.82,
+      null
+    ],
+    [
+      "MTC 2-D",
+      "Ht",
+      "A-C1",
+      2179.34,
+      2126.42,
+      2926.58,
+      2808.03,
+      null
+    ],
+    [
+      "MTC 2-D",
+      "Ht",
+      "A-C2",
+      2179.34,
+      2126.42,
+      2774.16,
+      2556.13,
+      null
+    ],
+    [
+      "MTD 1",
+      "S",
+      "P1-P2",
+      2116.71,
+      2032.27,
+      2199.62,
+      2083.2,
+      5877
+    ],
+    [
+      "MTD 2",
+      "S",
+      "P1-P2",
+      2003.88,
+      1910.67,
+      2224.98,
+      2127.43,
+      2581
+    ],
+    [
+      "MTD 3",
+      "S",
+      "P1-P2",
+      2367.66,
+      2096.71,
+      2738.26,
+      2455.11,
+      13740
+    ],
+    [
+      "MTC 1-C",
+      "S",
+      "P1-P2",
+      1194.48,
+      1125.68,
+      2269.85,
+      2047.6,
+      33459
+    ],
+    [
+      "MTD 1",
+      "St",
+      "P3-P4",
+      2183.64,
+      2070.47,
+      2188.42,
+      2078.42,
+      966
+    ],
+    [
+      "MTD 2",
+      "St",
+      "P3-P4",
+      2140.21,
+      2056.21,
+      2133.18,
+      2059.09,
+      1093
+    ],
+    [
+      "MTC 1-C",
+      "St",
+      "P3-P4",
+      2236.91,
+      1978.65,
+      2249.61,
+      2029.46,
+      3197
+    ]
+  ]
+}
